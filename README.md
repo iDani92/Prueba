@@ -10,6 +10,6 @@ Prueba para Despliegue
 
 	<body>
 		<h1>Esto es el contenido de la prueba</h1>
-		todopoderoso magec estuvo aqui
+		<h1>DON NEW 2015</h1>
 	</body>
 </html>
