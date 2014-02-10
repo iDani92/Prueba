@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ <head> 
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> 
+ <title>MODELO DOM</title> 
+ <script type="text/javascript" charset="ISO-8859-1">
+function Resolucion() 
+{
+  if(screen.width != 1680 && screen.height!= 1050)
+  {
+  document.write('La resolución actual es: '+screen.width+' x '+screen.height+'. La resolución correcta es: 1680 x 1050.');
+  }
+  else
+  {
+  document.write('Resolución Adecuada.');
+  }
+}
+ </script> 
+ 
+ <noscript>Tu navegador no soporta Javascript!!!</noscript>
+ </head> 
+ 
+ <!-- otro comentario de prueba -->
+ <body onLoad="Resolucion()">
+ </body> 
+ 
+</html>
